@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "comic_link_extractor",
+    "version": "1.0",
+    "description": "Extract href attributes from a elements based on selected type.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
