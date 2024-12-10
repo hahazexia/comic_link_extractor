@@ -27,7 +27,7 @@ document.getElementById('get-urls').addEventListener('click', () => {
             //     document.getElementById('results2').value = redirectUrls.join('\n');
             //     return;
             // }
-            document.getElementById('results2').value = urls.join('\n');
+            document.getElementById('results2').value = decodeURIComponent(urls.join('\n'));
         });
     });
 });
